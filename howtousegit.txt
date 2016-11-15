@@ -1,0 +1,10 @@
+ssh-keygen  -t rsa -C "baihsh@qq.com"
+cp id_rsa.pub's content to github settings ssh
+
+in local working directory 
+
+git remote  add cmcc_hpe git@github.com:baihsh/cmcc_hpe
+// cmcc_hpe already exists
+
+git push -u cmcc_hpe master
+
